@@ -527,5 +527,69 @@ padding: 32px 0;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 24px;
+    padding-top: 72px;
+}
 
+.modal-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: none;
+    background-color: E7E9FC;
+
+}
+
+.modal-btn-icon {
+    stroke: currentColor;
+    color: 2E2F42;
+}
+
+.modal-paragraph {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: 2E2F42;
+margin-bottom: 16px;
+}
+
+.modal-form-field {
+    margin-bottom: 8px;
+}
+
+.modal-form-label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.modal-form-input {
+    display: block;
+    border: 1px solid 4D5AE5;
+border-radius: 4px;
+width: 374px;
+height: 39px;
+padding: 11px 38px;
+}
+
+.modal-form-input:focus {
+    border-color: #404bbf;
+}
+
+.modal-form-icon {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+}
+
+.modal-form-wrapper {
+    position: relative;
 }

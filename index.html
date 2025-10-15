@@ -239,13 +239,56 @@
   <use href="./images/icons.svg#icon-linkedin"></use>
 </svg></a></li>
         </ul>
+        <form class="footet-form" name="subscribe_form" novalidate>
+            <label class="label" for="email">Subscribe to our newsletter</label>
+            <input class="input" type="email" id="email" name="email" placeholder="Your email" required>
+            <button type="submit" class="button button-footer">Subscribe</button>
     </div>
     </div>
 </footer>
 <div class="backdrop">
     <div class="modal">
-    <button type="button" class="button-close"></button>
-    <p>Leave your contacts and we will call you back</p>
+    <button type="button" class="modal-btn"><svg width="8" height="8" class="modal-btn-icon">
+  <use href="./images/icons.svg#icon-close"></use></svg></button>
+    <p class="modal-paragraph">Leave your contacts and we will call you back</p>
+    <form class="modal-form">
+    <div class="modal-form-field">   
+    <label class="modal-form-label" for="user_name">Name</label>
+    <div class="modal-form-wrapper">
+    <input class="modal-form-input" type="text" id="user_name" name="user_name" required>
+    <svg width="18" height="24" class="modal-form-icon">
+  <use href="./images/icons.svg#icon-name"></use></svg>
+    </div>
+    </div>
+    <div class="modal-form-field">
+    <label class="modal-form-label" for="user_phone">Phone</label>
+    <div class="modal-form-wrapper">
+    <input class="modal-form-input" type="tel" id="user_phone" name="user_phone" required>
+     <svg width="18" height="24" class="modal-form-icon">
+  <use href="./images/icons.svg#icon-tel"></use></svg>
+</div>
+     </div>
+     <div class="modal-form-field">
+    <label class="modal-form-label" for="user_email">Email</label>
+    <div class="modal-form-wrapper">
+    <input class="modal-form-input" type="email" id="user_email" name="user_email" required>
+    <svg width="18" height="24" class="modal-form-icon">
+  <use href="./images/icons.svg#icon-email"></use></svg>
+   </div>
+   </div>
+    <div class="modal-form-field">
+    <label class="modal-form-label" for="user_message">Comment</label>
+     <div class="modal-form-wrapper">
+    <textarea id="user_message" name="user_message" placeholder="Text input"></textarea>
+   </div>
+   </div>
+   <div class="modal-form-field">
+    <label  class="modal-form-label">
+    <input type="checkbox" name="user_agree" required>I accept the terms and conditions of the Privacy Policy
+    </label>
+    </div>
+    <button type="submit" class="button button-modal">Submit</button>
+    </form>
     </div>
 </div>
     </body>
