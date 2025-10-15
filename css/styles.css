@@ -746,7 +746,7 @@ background-color: transparent;
 }
 
 .modal-span-icon:hover {
-     stroke: #4D5AE5;
+     fill: #4D5AE5;
 }
 
 .modal-form-inputinput[type="checkbox"]:checked + .label-span {
@@ -776,5 +776,5 @@ color: var(--link-color);
 }
 
 .modal-span-icon:hover {
-    stroke: #FF5733;
+    fill: #FF5733;
 }
