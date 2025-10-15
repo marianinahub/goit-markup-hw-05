@@ -782,3 +782,7 @@ color: var(--link-color);
 .modal-span-icon:hover {
     fill: #FF5733;
 }
+
+.paragraph-footer-form {
+    color: #ffffff;
+}
