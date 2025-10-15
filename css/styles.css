@@ -748,11 +748,12 @@ background-color: transparent;
     fill: #4D5AE5;
 }
 
-input[type="checkbox"]:checked + span {
+input[type="checkbox"]:checked + .label-span {
   background-color: var(--background-color);
+  border: none;
 }
 
-input[type="checkbox"]:checked + span .icon {
+input[type="checkbox"]:checked + .label-span .modal-span-icon {
   fill: var(--icon-fill-color); 
 }
 
@@ -766,4 +767,12 @@ color: var(--link-color);
 
 .button-modal-finish:hover {
     background-color: #0056b3;
+}
+
+.modal-span-icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-span-icon:hover {
+    fill: #FF5733;
 }
