@@ -752,6 +752,7 @@ background-color: transparent;
 .modal-form-field input[type="checkbox"]:checked + label .label-span {
   background-color: var(--background-color);
   border: none;
+  fill: var(--icon-fill-color);
 }
 
 .modal-form-field input[type="checkbox"]:checked + label .modal-span-icon {
