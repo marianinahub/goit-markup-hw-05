@@ -62,7 +62,7 @@ img {
     border-radius: 2px;
 }
 
-.contacts {;
+.contacts {
     margin-left: auto;
 }
 
@@ -343,7 +343,6 @@ overflow: hidden;
     display: flex;
     gap: 24px;
 }
-
 
 .tim {
 padding: 32px 0;
