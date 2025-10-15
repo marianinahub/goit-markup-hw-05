@@ -749,12 +749,12 @@ background-color: transparent;
      fill: #4D5AE5;
 }
 
-.modal-form-inputinput[type="checkbox"]:checked + .label-span {
+.modal-form-field input[type="checkbox"]:checked + label .label-span {
   background-color: var(--background-color);
   border: none;
 }
 
-.modal-form-input[type="checkbox"]:checked + .label-span .modal-span-icon {
+.modal-form-field input[type="checkbox"]:checked + label .modal-span-icon {
   fill: var(--icon-fill-color); 
 }
 
