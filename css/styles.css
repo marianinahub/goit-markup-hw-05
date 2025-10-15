@@ -1,6 +1,7 @@
 :root {
     --main-color: #4d5ae5;
     --primary-color: #2E2F42;
+    --label-color: #8e8f99;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -517,7 +518,7 @@ padding: 32px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 .footet-form {
@@ -553,6 +554,10 @@ padding: 32px 0;
     background-color: #4D5AE5;
     border: none; 
     border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 }
 
 .footer-form-icon {
@@ -615,7 +620,7 @@ padding: 32px 0;
 .modal-btn-icon {
     stroke: currentColor;
     color: 2E2F42;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 
 .modal-btn:hover .modal-btn-icon,
@@ -629,7 +634,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
-color: #2E2F42;
+color: #ffffff;
 margin-bottom: 16px;
 }
 
@@ -656,6 +661,7 @@ border-radius: 4px;
  width: 100%; 
 height: 40px;
 padding: 11px 38px;
+background-color: transparent;
 }
 
 .modal-form-input:hover .modal-btn-icon {
@@ -663,7 +669,7 @@ padding: 11px 38px;
 }
 
 .modal-form-input:focus {
-    border-color: #404bbf;
+    border-color: #4D5AE5;
 }
 
 .modal-form-icon {
@@ -679,4 +685,53 @@ padding: 11px 38px;
 
 .paragraph-footer-form {
     color: var(--primary-color);
+}
+
+.modal-form-field.comment {
+    margin-bottom: 16px;
+}
+
+.modal-form-textarea {
+    width: 100%; 
+    height: 120px;
+     font-size: 12px;
+     line-height: 1.17;
+     letter-spacing: 0.04em;
+     color: rgba(46, 47, 66, 0.4);
+     border: 1px solid rgba(46, 47, 66, 0.4);
+     border-radius: 4px;
+     background-color: transparent;
+     padding: 8px 16px; 
+     outline: transparent;
+     resize: none;
+     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.modal-form-textarea:focus {
+    border-color: #4D5AE5;
+}
+
+.modal-form-field.box {
+    margin-bottom: 24px; 
+}
+
+.modal-form-label.privacy {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em; 
+    color: var(--label-color);
+}
+
+.label-span {
+    width: 16px; 
+    height: 16px; 
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     display: inline-flex;
+     align-items: center;
+      justify-content: center;
+      fill: transparent;
 }

@@ -283,15 +283,13 @@
   <use href="./images/icons.svg#icon-email"></use></svg>
    </div>
    </div>
-    <div class="modal-form-field">
-    <label class="modal-form-label" for="user_message">Comment</label>
-     <div class="modal-form-wrapper">
-    <textarea id="user_message" name="user_message" placeholder="Text input"></textarea>
+    <div class="modal-form-field comment">
+    <label class="modal-form-label" for="user-comment">Comment</label>
+    <textarea class="modal-form-textarea" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
    </div>
-   </div>
-   <div class="modal-form-field">
-    <label  class="modal-form-label">
-    <input type="checkbox" name="user_agree" required>I accept the terms and conditions of the Privacy Policy
+   <div class="modal-form-field box">
+    <input  class="visually-hidden"   type="checkbox" name="user-privacy" id="user-privacy" value="true" required> 
+    <label class="modal-form-label privacy" for="user-privacy">I accept the terms and conditions of the <span class="label-span">Privacy Policy</span>
     </label>
     </div>
     <button type="submit" class="button button-modal">Submit</button>
